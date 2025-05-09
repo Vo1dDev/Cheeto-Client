@@ -1,0 +1,100 @@
+{
+  "mappings": {
+    "xyz/apfelmus/cheeto/injection/mixins/MixinEntityPlayerSP": {
+      "sendChatMessage": "Lnet/minecraft/client/entity/EntityPlayerSP;func_71165_d(Ljava/lang/String;)V"
+    },
+    "xyz/apfelmus/cheeto/injection/mixins/MixinEntityRenderer": {
+      "getMouseOver": "Lnet/minecraft/client/renderer/EntityRenderer;func_78473_a(F)V"
+    },
+    "xyz/apfelmus/cheeto/injection/mixins/MixinMinecraft": {
+      "Lnet/minecraft/client/Minecraft;dispatchKeypresses()V": "Lnet/minecraft/client/Minecraft;func_152348_aa()V",
+      "startGame": "Lnet/minecraft/client/Minecraft;func_71384_a()V",
+      "runTick": "Lnet/minecraft/client/Minecraft;func_71407_l()V",
+      "clickMouse": "Lnet/minecraft/client/Minecraft;func_147116_af()V"
+    },
+    "xyz/apfelmus/cheeto/injection/mixins/MixinNetworkManager": {
+      "sendPacket(Lnet/minecraft/network/Packet;)V": "Lnet/minecraft/network/NetworkManager;func_179290_a(Lnet/minecraft/network/Packet;)V",
+      "channelRead0": "Lnet/minecraft/network/NetworkManager;channelRead0(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/Packet;)V"
+    },
+    "xyz/apfelmus/cheeto/injection/mixins/MixinRenderManager": {
+      "shouldRender": "Lnet/minecraft/client/renderer/entity/RenderManager;func_178635_a(Lnet/minecraft/entity/Entity;Lnet/minecraft/client/renderer/culling/ICamera;DDD)Z"
+    },
+    "xyz/apfelmus/cheeto/injection/mixins/MixinNetHandlerPlayClient": {
+      "handleParticles": "Lnet/minecraft/client/network/NetHandlerPlayClient;func_147289_a(Lnet/minecraft/network/play/server/S2APacketParticles;)V"
+    },
+    "xyz/apfelmus/cheeto/injection/mixins/C13PacketPlayerAbilitiesAccessor": {
+      "flySpeed": "field_149497_e:F"
+    },
+    "xyz/apfelmus/cheeto/injection/mixins/RenderManagerAccessor": {
+      "renderPosX": "field_78725_b:D",
+      "renderPosY": "field_78726_c:D",
+      "renderPosZ": "field_78723_d:D"
+    }
+  },
+  "data": {
+    "notch": {
+      "xyz/apfelmus/cheeto/injection/mixins/MixinEntityPlayerSP": {
+        "sendChatMessage": "Lbew;e(Ljava/lang/String;)V"
+      },
+      "xyz/apfelmus/cheeto/injection/mixins/MixinEntityRenderer": {
+        "getMouseOver": "Lbfk;a(F)V"
+      },
+      "xyz/apfelmus/cheeto/injection/mixins/MixinMinecraft": {
+        "Lnet/minecraft/client/Minecraft;dispatchKeypresses()V": "Lave;Z()V",
+        "startGame": "Lave;am()V",
+        "runTick": "Lave;s()V",
+        "clickMouse": "Lave;aw()V"
+      },
+      "xyz/apfelmus/cheeto/injection/mixins/MixinNetworkManager": {
+        "sendPacket(Lnet/minecraft/network/Packet;)V": "Lek;a(Lff;)V",
+        "channelRead0": "Lek;a(Lio/netty/channel/ChannelHandlerContext;Lff;)V"
+      },
+      "xyz/apfelmus/cheeto/injection/mixins/MixinRenderManager": {
+        "shouldRender": "Lbiu;a(Lpk;Lbia;DDD)Z"
+      },
+      "xyz/apfelmus/cheeto/injection/mixins/MixinNetHandlerPlayClient": {
+        "handleParticles": "Lbcy;a(Lgr;)V"
+      },
+      "xyz/apfelmus/cheeto/injection/mixins/C13PacketPlayerAbilitiesAccessor": {
+        "flySpeed": "e:F"
+      },
+      "xyz/apfelmus/cheeto/injection/mixins/RenderManagerAccessor": {
+        "renderPosX": "o:D",
+        "renderPosY": "p:D",
+        "renderPosZ": "q:D"
+      }
+    },
+    "searge": {
+      "xyz/apfelmus/cheeto/injection/mixins/MixinEntityPlayerSP": {
+        "sendChatMessage": "Lnet/minecraft/client/entity/EntityPlayerSP;func_71165_d(Ljava/lang/String;)V"
+      },
+      "xyz/apfelmus/cheeto/injection/mixins/MixinEntityRenderer": {
+        "getMouseOver": "Lnet/minecraft/client/renderer/EntityRenderer;func_78473_a(F)V"
+      },
+      "xyz/apfelmus/cheeto/injection/mixins/MixinMinecraft": {
+        "Lnet/minecraft/client/Minecraft;dispatchKeypresses()V": "Lnet/minecraft/client/Minecraft;func_152348_aa()V",
+        "startGame": "Lnet/minecraft/client/Minecraft;func_71384_a()V",
+        "runTick": "Lnet/minecraft/client/Minecraft;func_71407_l()V",
+        "clickMouse": "Lnet/minecraft/client/Minecraft;func_147116_af()V"
+      },
+      "xyz/apfelmus/cheeto/injection/mixins/MixinNetworkManager": {
+        "sendPacket(Lnet/minecraft/network/Packet;)V": "Lnet/minecraft/network/NetworkManager;func_179290_a(Lnet/minecraft/network/Packet;)V",
+        "channelRead0": "Lnet/minecraft/network/NetworkManager;channelRead0(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/Packet;)V"
+      },
+      "xyz/apfelmus/cheeto/injection/mixins/MixinRenderManager": {
+        "shouldRender": "Lnet/minecraft/client/renderer/entity/RenderManager;func_178635_a(Lnet/minecraft/entity/Entity;Lnet/minecraft/client/renderer/culling/ICamera;DDD)Z"
+      },
+      "xyz/apfelmus/cheeto/injection/mixins/MixinNetHandlerPlayClient": {
+        "handleParticles": "Lnet/minecraft/client/network/NetHandlerPlayClient;func_147289_a(Lnet/minecraft/network/play/server/S2APacketParticles;)V"
+      },
+      "xyz/apfelmus/cheeto/injection/mixins/C13PacketPlayerAbilitiesAccessor": {
+        "flySpeed": "field_149497_e:F"
+      },
+      "xyz/apfelmus/cheeto/injection/mixins/RenderManagerAccessor": {
+        "renderPosX": "field_78725_b:D",
+        "renderPosY": "field_78726_c:D",
+        "renderPosZ": "field_78723_d:D"
+      }
+    }
+  }
+}

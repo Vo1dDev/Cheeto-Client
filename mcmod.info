@@ -1,0 +1,20 @@
+[
+  {
+    "modid": "ChromaHUD",
+    "name": "Chroma HUD",
+    "description": "A HUD for Minecraft offering many color and display options",
+    "version": "3.0",
+    "mcversion": "1.8.9",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "Sk1er",
+      "Tayber",
+      "prplz"
+    ],
+    "credits": "Tayber for the ideas, Sk1er for the mod",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]

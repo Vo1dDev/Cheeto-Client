@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "xyz.apfelmus.cheeto.injection.mixins",
+  "refmap": "mixins.cheeto.refmap.json",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "C13PacketPlayerAbilitiesAccessor",
+    "MixinEntityPlayerSP",
+    "MixinEntityRenderer",
+    "MixinGuiScreen",
+    "MixinMinecraft",
+    "MixinNetworkManager",
+    "MixinRenderManager",
+    "RenderManagerAccessor"
+  ],
+  "client": [
+    "MixinNetHandlerPlayClient"
+  ]
+}
